@@ -1,0 +1,21 @@
+id
+language_name en
+column_name name
+translation ahmed
+transable_id 1
+transable_type user
+
+
+
+language_name ar
+column_name name
+translation احمد
+transable_id 1
+transable_type user
+
+
+
+
+$user->trans('name', 'ar')
+
+$user->insertTrns('name')

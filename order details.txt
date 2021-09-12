@@ -1,0 +1,11 @@
+order details
+        order id
+        user name
+        user phone
+        order status
+    product
+        product name
+        product image
+        price
+        quantity
+        amount
