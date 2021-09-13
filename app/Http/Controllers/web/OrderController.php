@@ -20,7 +20,7 @@ class OrderController extends Controller
     public function show(Order $order)
     {
         $products = $order->products()->paginate(1);
-        static $total = 0;
+        $total = 0;
         // dd($products);
         return view('web.orders.show', compact('order', 'products', 'total'));
     }

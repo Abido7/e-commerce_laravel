@@ -72,8 +72,7 @@
                                 <tbody class="table-secondary">
                                     @foreach ($maxproduct as $product)
                                         <tr>
-                                            {{-- {{ dd($product) }} --}}
-                                            <td>{{ $product->product_id }}</td>
+                                            <td>{{ json_decode($product->name)->en }}</td>
                                             <td>{{ $product->orders }}</td>
                                             <td>{{ $product->quantity }}</td>
                                             <td>{{ $product->amount }}$</td>
